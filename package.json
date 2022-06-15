@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "ts-node-dev src/server.ts",
-    "start": "node src/server.ts"
+    "start": "node --loader src/server.ts"
   },
   "devDependencies": {
     "@types/express": "^4.17.13",
